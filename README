@@ -1,0 +1,3 @@
+This is a node version of https://pkg.go.dev/agones.dev/agones@v1.11.0
+
+It allows you to talk to the Kubernetes API using Agones CRD

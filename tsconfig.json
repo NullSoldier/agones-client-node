@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "target": "ES2017",
+    "module": "commonjs",
+    "outDir": "build",
+    "lib": [
+      "dom",
+      "es2015.promise",
+      "es2017.object",
+      "es2015",
+      "es5"
+    ],
+    "sourceMap": true,
+    "isolatedModules": false,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "declarationMap": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "experimentalDecorators": true
+  },
+  "include": ["index.ts", "./src/**/*.ts"],
+  "exclude": [],
+}
+
